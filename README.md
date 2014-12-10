@@ -35,7 +35,7 @@ Daha Sonra Eklentimizi Çalıştırıyoruz.
 Tasarım Değiştirmek için Css İle Müdahale edebilirsiniz. 
 
 Örnek: 
-``css
+```css
 
   span.saat {
 			color:#aaa;
@@ -47,7 +47,7 @@ Tasarım Değiştirmek için Css İle Müdahale edebilirsiniz.
 			color:#eee;
 		}
 
-``
+```
 
 
 
