@@ -9,17 +9,17 @@ Eklentimizin Birparametresi var
 
 Öncelikle jQuery Kütüphanesini Ve Eklenti Dosyamızı Çağırıyoruz.
 
-``html
+```html
 
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="akdoganSayac.js"></script>
 
-`` 
+```
 
 Daha Sonra Eklentimizi Çalıştırıyoruz.
 
 
-``js
+```js
 <script type="text/javascript">
 		$(function(){
 			$("#akdoganSayac").akdoganSayac({
@@ -28,7 +28,7 @@ Daha Sonra Eklentimizi Çalıştırıyoruz.
 	});
 	</script>
 
-``
+```
 
 Şeklinde Kullanabilirsiniz. 
 
