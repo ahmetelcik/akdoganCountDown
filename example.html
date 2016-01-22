@@ -11,7 +11,10 @@
 	<script type="text/javascript">
 		$(function(){
 			$("#akdoganSayac").akdoganSayac({
-				'dakika' : 120 // default değer 5dk
+				'gun' : 10, // default değer 5 gun
+				'saat' : 3,
+				'dakika' : 2,
+				'saniye' : 20
 			});
 			
 			
@@ -21,24 +24,30 @@
 	<style type="text/css">
 		#akdoganSayac {
 			position:absolute;
-			width:500px;
+			width:800px;
 			hieght:100px;
 			top:50%;
 			left:50%;
 			margin-top:-80px;
-			margin-left:-250px;
+			margin-left:-400px;
 			overflow:hidden;
-			font:128px arial;
+			font:90px arial;
 			color:#bbb;
 		}
-		span.saat {
+		span.gun {
 			color:#aaa;
 		}
+		span.saat {
+			color:#ccc;
+		}
 		span.dakika {
-			color:#cc;
+			color:#ddd;
 		}
 		span.saniye {
 			color:#eee;
+		}
+		span.min {
+			font-size: 20px;
 		}
 		
 		
