@@ -5,10 +5,10 @@ Basit Ve Kullanışlı bir geri sayım sayacı (count down)
 
 Eklentimizin 3 parametresi var
 
-<b>Gün:</b> Default Değeri 10
-<b>Saat:</b> Default Değeri 24
-<b>Dakika:</b> Default Değeri 60
-<b>Saniye:</b> Default Değeri 60
+<b>Gün:</b> Default Değeri 10 <br/>
+<b>Saat:</b> Default Değeri 24 <br/>
+<b>Dakika:</b> Default Değeri 60 <br/>
+<b>Saniye:</b> Default Değeri 60 <br/>
 
 Öncelikle jQuery Kütüphanesini Ve Eklenti Dosyamızı Çağırıyoruz.
 
