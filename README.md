@@ -3,9 +3,12 @@ akdoganCountDown
 
 Basit Ve Kullanışlı bir geri sayım sayacı (count down)
 
-Eklentimizin Birparametresi var
+Eklentimizin 3 parametresi var
 
-<b>dakika:</b> Default Değeri 5
+<b>Gün:</b> Default Değeri 10
+<b>Saat:</b> Default Değeri 24
+<b>Dakika:</b> Default Değeri 60
+<b>Saniye:</b> Default Değeri 60
 
 Öncelikle jQuery Kütüphanesini Ve Eklenti Dosyamızı Çağırıyoruz.
 
@@ -22,9 +25,14 @@ Daha Sonra Eklentimizi Çalıştırıyoruz.
 ```js
 <script type="text/javascript">
 		$(function(){
+		$(function(){
 			$("#akdoganSayac").akdoganSayac({
-				'dakika' : 120 // default değer 5dk
+				'gun' : 10, 
+				'saat' : 3, 
+				'dakika' : 2,
+				'saniye' : 20
 			});
+		});
 	});
 	</script>
 
@@ -37,15 +45,21 @@ Tasarım Değiştirmek için Css İle Müdahale edebilirsiniz.
 Örnek: 
 ```css
 
-  span.saat {
-			color:#aaa;
-		}
-		span.dakika {
-			color:#cc;
-		}
-		span.saniye {
-			color:#eee;
-		}
+span.gun {
+	color:#aaa;
+}
+span.saat {
+	color:#ccc;
+}
+span.dakika {
+	color:#ddd;
+}
+span.saniye {
+	color:#eee;
+}
+span.min {
+	font-size: 20px;
+}
 
 ```
 
