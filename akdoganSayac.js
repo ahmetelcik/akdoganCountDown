@@ -3,7 +3,7 @@
 	E-Posta: mf.leqelyy@gmail.com
 	Web: vehbiakdogan.com
 */
-
+ 
 (function($){
 	$.fn.akdoganSayac = function(config){
 		
