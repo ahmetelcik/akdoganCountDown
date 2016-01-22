@@ -24,16 +24,14 @@ Daha Sonra Eklentimizi Çalıştırıyoruz.
 
 ```js
 <script type="text/javascript">
-		$(function(){
-		$(function(){
-			$("#akdoganSayac").akdoganSayac({
-				'gun' : 10, 
-				'saat' : 3, 
-				'dakika' : 2,
-				'saniye' : 20
-			});
-		});
+$(function(){
+	$("#akdoganSayac").akdoganSayac({
+		'gun' : 10, 
+		'saat' : 3, 
+		'dakika' : 2,
+		'saniye' : 20
 	});
+});
 	</script>
 
 ```
